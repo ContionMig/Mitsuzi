@@ -1,4 +1,4 @@
-# KernelMode-Bypass
+# Mitsuzi ( C++ Discord Bot )
 
 [[My Website]](http://sagaanpillai.com/)
 
