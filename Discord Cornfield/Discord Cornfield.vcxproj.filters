@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{253548d3-5ec3-4cbc-b300-63e22b1c6211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{1bb9c9ed-faaf-47b6-b0fa-7950443e4803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{b9ff9594-d1c0-4dcf-a2ce-5177958d687a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{5e2a0097-c52f-4818-a995-33b12b564bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{ffadcda0-a52b-4a4a-bdb9-e321cc2318f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{b65966d2-b7bc-4575-adcd-8024e7566cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{45883c00-09f6-4ea7-9cb1-ab5cd2a5804a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deps/Libs">
+      <UniqueIdentifier>{eafe7800-e155-4c88-8412-eb0c6d98947a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deps/Libs">
+      <UniqueIdentifier>{0e915996-04c0-44f8-a3fd-eec6e91bd78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deps/Libs\Sqlite">
+      <UniqueIdentifier>{428f6384-0cde-40fe-9169-c2287c279f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deps/Libs\Sqlite">
+      <UniqueIdentifier>{ed6aa816-7b48-4a59-a7ca-0924513b1a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deps/Libs\libdiscord">
+      <UniqueIdentifier>{5fc07904-494a-4237-b83b-2a8aaa75a45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Others">
+      <UniqueIdentifier>{54199f82-ecee-485a-a102-5fa1430ac526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Com">
+      <UniqueIdentifier>{252afbef-2984-4196-9d3f-f8064623185c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Com">
+      <UniqueIdentifier>{b74e4f39-7aa4-4a45-99b7-c21806dd7b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deps/Libs\TinyExpr">
+      <UniqueIdentifier>{1dcad4ad-23ff-4f6c-baa8-a7682d43118c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deps/Libs\TinyExpr">
+      <UniqueIdentifier>{abcd5b52-1ee2-4c7c-8dc9-ef3f6590d7d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\shell.c">
+      <Filter>Source Files\Deps/Libs\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>Source Files\Deps/Libs\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageWrap.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Others.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Admins.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Fun.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="others\tinyexpr.c">
+      <Filter>Source Files\Deps/Libs\TinyExpr</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHelp.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookies.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaction.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversation.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Commands\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>Header Files\Deps/Libs\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3ext.h">
+      <Filter>Header Files\Deps/Libs\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="others\getRSS.h">
+      <Filter>Header Files\Deps/Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="others\json.hpp">
+      <Filter>Header Files\Deps/Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\api.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\bot.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\channel.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\common.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\connection.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\connection_object.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\connection_state.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\discord.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\discord_exception.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\easylogging++.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\embed.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\emoji.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\gateway.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\guild.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\identifiable.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\integration.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\member.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\message.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\permission.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\role.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\serializable.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\snowflake.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\user.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libs\libdiscord\libdiscord\include\voice.h">
+      <Filter>Header Files\Deps/Libs\libdiscord</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageWrap.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Others.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Admins.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Fun.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="others\tinyexpr.h">
+      <Filter>Header Files\Deps/Libs\TinyExpr</Filter>
+    </ClInclude>
+    <ClInclude Include="WebHelp.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookies.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaction.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversation.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Commands\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
