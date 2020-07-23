@@ -16,6 +16,7 @@ Please note that this is not a simple compile and run project, i slightly modifi
 - tinyexpr: https://github.com/codeplea/tinyexpr
 - sqlite: https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 - curl: https://curl.haxx.se/
+- brainfuck: https://github.com/texus/Brainfuck-interpreter
 
 # SQL Tables
 ```
