@@ -3,8 +3,10 @@
 [[My Website]](http://sagaanpillai.com/)
 
 # Screenshots
+![Screenshot](https://raw.githubusercontent.com/ContionMig/Mitsuzi/master/Discord%20Cornfield/Screenshots/Screenshot_3.png)
 
 # Features
+![Screenshot](https://github.com/ContionMig/Mitsuzi/blob/master/Discord%20Cornfield/Screenshots/Screenshot_1.png)
 
 # Information / Important
 Please note that this is not a simple compile and run project, i slightly modified libdiscord which you may need to do on your own as well to compile it properly. The code for the bot is really really messy at some places, such as the SQL parts. I made this bot in a couple of days, just to see if it was worth diving into making a bot using C, but it really wasn't worth it. In the end, i wasn't really happy with the results. 
