@@ -1,6 +1,6 @@
 # Mitsuzi ( C++ Discord Bot )
 
-[[My Website]](http://sagaanpillai.com/)
+[[My Website]](https://mitsuzi.xyz/)
 
 # Screenshots
 ![Screenshot](https://raw.githubusercontent.com/ContionMig/Mitsuzi/master/Discord%20Cornfield/Screenshots/Screenshot_3.png)
